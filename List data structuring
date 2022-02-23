@@ -1,0 +1,12 @@
+# C
+
+int main () {
+     struct Lista*minha_lista = criar ();
+     if (vazia(minha_lista) == true) {
+         printf("\nOK, lista vazia!");
+         
+     } else {
+         printf ("\nOps... algo deu errado!");
+     }
+     return 0;
+ }
