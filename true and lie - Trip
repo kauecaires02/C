@@ -1,0 +1,16 @@
+# C
+
+#include <stdio.h>
+int main() {
+   float disponivel;
+   printf ("\n Digite o valor didponivel para a viagem: \n");
+   scanf("%f", disponivel);
+   if (disponivel >= 10000) {
+       printf("\n de acordo com meus calculos, o valor é suficiente para uma viagem internacional");
+   } else { 
+       printf ("\n com base na nossa análise, seria melhor uma viagem nacional");
+   }
+   return 0;
+   
+}
+   
