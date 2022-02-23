@@ -1,0 +1,23 @@
+# C
+
+#include <stdio.h>
+int main(){
+    int idade;
+    printf("\n Digite sua idade: ");
+    scanf("%d",  &idade);
+    if (idade >= 18);
+    
+   
+    
+    {
+        printf("\n você já pode tirar a habilitação, você consta como maior de 18 anos ");
+    }
+    
+    {
+        ("idade <=18");
+    printf("\n ande de transporte público enquanto não estiver a carta de habilitação ;)");
+    }
+        
+        return 0;
+    
+}
